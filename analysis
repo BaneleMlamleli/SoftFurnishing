@@ -1,0 +1,19 @@
+1. Enter customer namer (custName)
+2. Request and validate:
+    a. item code(itemCode) values 1,2,3,4 and 0 for no more orders for that one customer
+    b. quantity (qty) not less than 1
+    c. fabric code (fabricCode) 1001 - 1010
+    Invalid entry of the above should display an appropriate error message and allow the customer to re-enter again
+3. Amount of fabric required to make a produce (meters)
+4. Calculate cost of the item (cost)
+    a. Add R100 cost for labour
+    b. Add 14%  VAT
+5. Display total cost (totalCost)
+    totalCost = (cost of total fabric needed for item + R100 for labour) + 14% VAT
+6. Display total cost for the customer
+
+7. Display Sum of the number of pieces (nrPieces)
+8. Display grand total of the customer cost (custTotal)
+
+N.B., Loop to cater for more than one customer
+N.B., Customer name of 'X' must stop the program
